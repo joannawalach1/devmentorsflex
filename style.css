@@ -1,93 +1,113 @@
-            @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Oswald:wght@700&family=Poppins:wght@200;400;600&display=swap');
-            body {
-                background-color: hsl(0, 0%, 98%);
-                font-family: 'Barlow Semi Condensed', sans-serif;
-                font-family: 'Oswald', sans-serif;
-                font-family: 'Poppins', sans-serif;
-            }
-            
-            p,
-            h2 {
-                text-align: center;
-            }
-            
-            .container {
-                display: flex;
-                flex-direction: column;
-            }
-            
-            .header {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                padding-bottom: 40px;
-            }
-            
-            .header__heading2 {
-                font-weight: 200px;
-                margin-bottom: 0;
-            }
-            
-            .header__heading2 {
-                font-weight: 400px;
-            }
-            
-            .boxes {
-                display: flex;
-                flex-direction: row;
-                gap: 20px;
-                align-items: center;
-                justify-content: center;
-            }
-            
-            .midboxes {
-                display: flex;
-                flex-direction: column;
-                gap: 20px;
-            }
-            
-            .card {
-                width: 300px;
-                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-                padding: 20px;
-            }
-            
-            .card__four {
-                height: auto;
-            }
-            
-            .card__four--border4 {
-                border-top: 4px solid hsl(0, 78%, 62%);
-            }
-            
-            .card__one {
-                height: auto;
-            }
-            
-            .card__one--border1 {
-                border-top: 4px solid hsl(180, 62%, 55%);
-            }
-            
-            .card__three--border3 {
-                border-top: 4px solid hsl(34, 97%, 64%);
-            }
-            
-            .card__two--border2 {
-                border-top: 4px solid hsl(212, 86%, 64%);
-            }
-            
-            img {
-                float: right;
-            }
-            
-            @media screen and (max-width: 375px) {
-                h2,
-                p {
-                    text-align: center;
-                }
-                .boxes {
-                    display: flex;
-                    flex-direction: column;
-                    column-gap: 20px;
-                }
-            }
+                    @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Oswald:wght@700&family=Poppins:wght@200;400;600&display=swap');
+                    body {
+                        background-color: hsl(0, 0%, 98%);
+                        font-family: 'Barlow Semi Condensed', sans-serif;
+                        font-family: 'Oswald', sans-serif;
+                        font-family: 'Poppins', sans-serif;
+                    }
+                    
+                    p,
+                    h2 {
+                        text-align: center;
+                    }
+                    
+                    .container {
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    
+                    .header {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding-bottom: 40px;
+                    }
+                    
+                    .header__heading2 {
+                        font-weight: 200px;
+                        margin-bottom: 0;
+                    }
+                    
+                    .header__heading2 {
+                        font-weight: 400px;
+                    }
+                    
+                    .boxes {
+                        display: flex;
+                        flex-direction: row;
+                        gap: 20px;
+                        align-items: center;
+                        justify-content: center;
+                    }
+                    
+                    .midboxes {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 20px;
+                    }
+                    
+                    .card {
+                        width: 300px;
+                        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                        padding: 20px;
+                    }
+                    
+                    .card__four {
+                        height: auto;
+                    }
+                    
+                    .card__four--border4 {
+                        border-top: 4px solid hsl(0, 78%, 62%);
+                    }
+                    
+                    .card__one {
+                        height: auto;
+                    }
+                    
+                    .card__one--border1 {
+                        border-top: 4px solid hsl(180, 62%, 55%);
+                    }
+                    
+                    .card__three--border3 {
+                        border-top: 4px solid hsl(34, 97%, 64%);
+                    }
+                    
+                    .card__two--border2 {
+                        border-top: 4px solid hsl(212, 86%, 64%);
+                    }
+                    
+                    img {
+                        float: right;
+                    }
+                    
+                    @media screen and (max-width: 900px) {
+                        h2,
+                        p {
+                            text-align: center;
+                        }
+                        .boxes {
+                            display: flex;
+                            flex-direction: column;
+                            column-gap: 20px;
+                        }
+                        .midboxes {
+                            display: flex;
+                            flex-direction: row;
+                        }
+                    }
+                    
+                    @media screen and (max-width: 375px) {
+                        h2,
+                        p {
+                            text-align: center;
+                        }
+                        .boxes {
+                            display: flex;
+                            flex-direction: column;
+                            column-gap: 20px;
+                        }
+                        .midboxes {
+                            display: flex;
+                            flex-direction: column;
+                        }
+                    }
