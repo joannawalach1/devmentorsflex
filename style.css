@@ -112,7 +112,7 @@
                         }
                     }
                     
-                    @media screen and (max-width:375px) {
+                    @media screen and (max-width:380px) {
                         h2,
                         p {
                             text-align: center;
