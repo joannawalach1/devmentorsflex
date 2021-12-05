@@ -96,7 +96,23 @@
                         }
                     }
                     
-                    @media screen and (max-width: 375px) {
+                    @media screen and (max-width: 725px) {
+                        .boxes {
+                            display: flex;
+                            flex-direction: column;
+                            column-gap: 20px;
+                        }
+                        .midboxes {
+                            display: flex;
+                            flex-direction: column;
+                            flex-wrap: wrap;
+                        }
+                        .card {
+                            width: 400px;
+                        }
+                    }
+                    
+                    @media screen and (max-width:375px) {
                         h2,
                         p {
                             text-align: center;
@@ -109,5 +125,8 @@
                         .midboxes {
                             display: flex;
                             flex-direction: column;
+                        }
+                        .card {
+                            width: 300px;
                         }
                     }
